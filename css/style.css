@@ -219,3 +219,21 @@ img{
 .footer div div{
     padding-top: 2.5rem;
 }
+
+/* Sobre Nosotros */
+@media (min-width: 768px) {
+    /* .sobre-nosotros{
+        display: flex;
+        gap: 2rem;
+    }       
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto{
+        flex-basis: 50%;
+    }  división con flex*/
+
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
